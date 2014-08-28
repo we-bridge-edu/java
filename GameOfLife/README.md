@@ -28,7 +28,7 @@ How to begin
     representing an existing **World** as parameter
     * A public method `public void newGeneration()`
         * Changes the current world to its next generation
-    * A public method `public int getAliveNeighbors(int column, int row`)'
+    * A public method `public int getAliveNeighbors(int column, int row)`
         * Calculates the number of **Alive Cell** around the cell at the given position
     * The `ToString()` method (`@Override`) that returns a string representing
     the current world and the generation number
